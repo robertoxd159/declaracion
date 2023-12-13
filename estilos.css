@@ -1,28 +1,32 @@
-*{
+* {
     margin: 0;
 }
 
-.contenedor{
-    background: cadetblue;
+.contenedor {
+    background: rgb(225, 235, 236);
     width: 100vw;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 
-p{
+p {
     font-size: xx-large;
-    padding: 15%;
+    margin-bottom: 20px;
 }
 
-button{
+button {
     font-size: xx-large;
     padding: 0.75em;
+    cursor: pointer;
 }
 
-#yesBtn{
-    transform: translate(-100%,0);
+#yesBtn {
+    transform: translate(-100%, 0);
+    transition: transform 0.3s ease;
 }
 
-#noBtn{
+#noBtn {
     position: absolute;
+    transition: transform 0.3s ease;
 }
